@@ -1,3 +1,8 @@
+body{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 5rem;
     padding-left: .5rem;
@@ -43,8 +48,21 @@
    
 }
 .box{
-    border: 100px;
-    border-radius: 10px;
-    box-shadow: 10px 5px 20px lightgray;
-    padding-top: 10%;
+    box-sizing:content-box;
+    border: 200px;
+    border-radius: 20px 25px;
+    box-shadow: 10px 5px 30px lightgray;
 }
+
+.box img{
+    width: 50%;
+}
+
+.flex-container{
+    margin: 30px;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    line-height: 75px;
+} 
+
